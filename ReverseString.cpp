@@ -17,3 +17,18 @@ int main()
     reverse(ch,n);
     return 0;
 }
+
+/*
+Leetcode:344-Reverse String: https://leetcode.com/problems/reverse-string/description/ 
+class Solution {
+public:
+    void reverseString(vector<char>& s) {
+        int st=0;
+        int e=s.size()-1;
+        while(e>st)
+        {
+            swap(s[st++],s[e--]);
+        }
+    }
+};
+*/
